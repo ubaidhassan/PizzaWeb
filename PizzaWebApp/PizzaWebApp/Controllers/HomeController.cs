@@ -13,6 +13,7 @@ namespace PizzaWebApp.Controllers
         public IActionResult Index()
         {
             ViewBag.FirstName = "Obaid Safdar";
+            Trace.WriteLine("In Index Method");
             return View();
         }
 
