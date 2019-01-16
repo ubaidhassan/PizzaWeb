@@ -12,6 +12,7 @@ namespace PizzaWebApp.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag["FirstName"] = "Obaid Safdar";
             return View();
         }
 
